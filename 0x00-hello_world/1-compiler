@@ -1,2 +1,2 @@
 #!/bin/bash
-mv $CFILE.c $CFILE.o
+gcc CFILE -c {CFILE%.c}.o
